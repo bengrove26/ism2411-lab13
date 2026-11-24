@@ -2,7 +2,7 @@
 print("---Exercise 1---")
 
 import pandas as pd
-
+import os
 df = pd.read_csv('data/retail_sales.csv')
 
 print(df.head())
@@ -41,3 +41,14 @@ print("---Exercise 6---")
 
 print(df['region'].unique())
 print(df['region'].value_counts())
+
+print("---Exercise 7---")
+
+subset = df[['region', 'product', 'revenue']]
+
+print(subset.shape)
+
+print("---Exercise 8---")
+
+df.to_csv('data/explored.csv', index=False)
+print(os.path.exists('data/explored.csv'))
