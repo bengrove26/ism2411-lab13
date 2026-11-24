@@ -1,3 +1,6 @@
+# Self Assessment 1: A boolean filter determines which rows will be selected based of specific conditions. 
+# Self Assessment 2: df["revenue"] = a coulumn while df[["revenue"]] = a table. This matters because if you need it to be a table so you can take rows and add a header you need to use double brackets.
+# Self Assessment 3: I would say pandas are better than excel because they are so much more efficent both in speed and in the amount of data you can handle.
 
 print("---Exercise 1---")
 
